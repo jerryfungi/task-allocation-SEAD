@@ -304,7 +304,7 @@ class GA_task_allocation(object):
 
 
 if __name__ == '__main__' :
-    targets = [[random.randint(-100, 100), random.randint(-100, 100)] for m in range(5)]
+    targets = [[random.randint(-100, 100), random.randint(-100, 100)] for m in range(20)]
     uav = [[random.randint(-100, 100),
             random.randint(-100, 100),
             random.randint(0, 360)] for n in range(3)]
